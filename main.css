@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+.dTopRow {
+    padding: 30px 0;
+    background-color: rgb(56, 73, 56);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: none;
+} :hover {
+    text-shadow: 0 0 20px white;
+}
+
+#Controls {
+    text-align: center;
+}
+
+#Controls button {
+    margin: 50px 40px 20px 40px;
+}
+
+#Main {
+    text-align: left;
+    margin: 20x 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgb(12, 12, 12);
+}
+
+.dButton {
+    background-color: rgb(244, 244, 244);
+    color: black;
+    font-weight: 600;
+    padding: 7px 19px;
+    border-width: 1px;
+    border-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.dButton:hover {
+    background-color: rgb(28, 28, 28);
+    /* border-color: rgb(244, 244, 244); */
+    color: white;
+    box-shadow: 0 0 20px white;;
+}
+
+#chapTitle {
+    margin: 40px 0;
+    text-align: left;
+}
+
+
