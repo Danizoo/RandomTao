@@ -14,7 +14,7 @@ function genRandomNum(){
     fetch('/Chapters/Chap' + r + 'en1.txt').then(response=>response.text()).then(data=>{
       randomChapEn1.innerText = data;
     })
-    fetch('Chapters/Chap1ch.txt').then(response=>response.text()).then(data=>{
+    fetch('https://raw.githubusercontent.com/Danizoo/RandomTao/main/Chapters/Chap1ch.txt').then(response=>response.text()).then(data=>{
       randomChapCh.innerText = data;
     })
 }
