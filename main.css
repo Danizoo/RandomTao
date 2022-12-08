@@ -1,13 +1,17 @@
 body {
 /*     background-image: url("file:///D:/Works/Thoughts%20from%20somewhere/Pics/Used/simon-berger-twukN12EN7c-unsplash.jpg");*/
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     /* background-position: center; */
-    background-size: auto;
-    background-color: #ffffff;
+    /* background-size: auto;
+    background-color: #ffffff; */
     
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    height: 100%; 
+    overflow: hidden;
 }
 
 #All {
