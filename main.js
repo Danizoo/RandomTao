@@ -23,7 +23,7 @@ function genRandomNum(){
 const d = new Date();
 dd = d.getDate();
 
-document.body.style.backgroundImage = "url('http://127.0.0.1:8081/BGPics/iccup-xNtwmcRP-gw-unsplash.jpg')"
+document.getElementById("BG").style.backgroundImage = "url('https://raw.githubusercontent.com/Danizoo/RandomTao/main/BGPics/iccup-xNtwmcRP-gw-unsplash.jpg')"
 
 
 // This is a function that sends to a random page
