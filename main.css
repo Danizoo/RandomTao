@@ -4,6 +4,10 @@ body {
     /* background-position: center; */
     background-size: auto;
     background-color: #ffffff;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #All {
