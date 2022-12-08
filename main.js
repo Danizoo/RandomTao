@@ -24,7 +24,7 @@ const d = new Date();
 dd = d.getDate();
 
 var r2 = Math.ceil((Math.random()*10));
-document.getElementById("BG").style.backgroundImage = "url('https://raw.githubusercontent.com/Danizoo/RandomTao/main/BGPics/' + r2 + '.jpg')"
+document.getElementById("BG").style.backgroundImage = "url('https://raw.githubusercontent.com/Danizoo/RandomTao/main/BGPics/iccup-xNtwmcRP-gw-unsplash.jpg')"
 
 
 // This is a function that sends to a random page
