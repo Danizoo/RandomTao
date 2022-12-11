@@ -33,7 +33,7 @@ function genRandomNum(){
       randomChapCh.innerText = data;
     }) */
     
-    fetch('/Chapters/TaoTeChing_All_Ch1.txt').then(response=>response.text()).then(data=>{
+    fetch('https://raw.githubusercontent.com/Danizoo/RandomTao/main/Chapters/TaoTeChing_All_Ch1.txt').then(response=>response.text()).then(data=>{
       
       var txtSplitStart = 0;
       var txtSplitEnd = 0;
@@ -63,7 +63,7 @@ function genRandomNum(){
     })
 
 
-    fetch('/Chapters/TaoTeChing_All_En1_StephanMitchell.txt').then(response=>response.text()).then(data=>{
+    fetch('https://raw.githubusercontent.com/Danizoo/RandomTao/main/Chapters/TaoTeChing_All_En1_StephanMitchell.txt').then(response=>response.text()).then(data=>{
 
       var txtSplitStart = 0;
       var txtSplitEnd = 0;
