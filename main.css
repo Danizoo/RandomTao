@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 #BG {
@@ -17,8 +17,8 @@ body {
 }
 
 #BG-Cover {
-    position: absolute;
-    background: white;
+    position: fixed;
+    background: rgb(255, 255, 255);
     opacity: 0.8;
     width: 100%;
     height: 100%;
@@ -57,6 +57,7 @@ h1 {
     font-weight: 400;
     font-size: 1.1rem;
     color: rgb(12, 12, 12);
+    /* color: rgb(255, 255, 255); */
 }
 
 .dButton {
@@ -80,6 +81,7 @@ h1 {
 #chapTitle {
     margin: 40px 0;
     text-align: left;
+    /* color: white; */
 }
 
 
