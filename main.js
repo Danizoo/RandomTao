@@ -10,8 +10,8 @@ var r2 = Math.ceil((Math.random()*12));
 var name1 = 'https://raw.githubusercontent.com/Danizoo/RandomTao/main/BGPics/Unsplash/' + r2 + '.jpg';
 var name2 = "url(" + String(name1) + ")";
 
-/* document.getElementById("BG").style.backgroundImage = name2; */
-document.body.style.backgroundImage = name2;
+document.getElementById("BG").style.backgroundImage = name2;
+/* document.body.style.backgroundImage = name2; */
 
 
 
