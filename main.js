@@ -7,7 +7,7 @@ const d = new Date();
 dd = d.getDate();
 
 var r2 = Math.ceil((Math.random()*12));
-var name1 = 'http://127.0.0.1:8080/BGPics/Unsplash/' + r2 + '.jpg';
+var name1 = 'https://raw.githubusercontent.com/Danizoo/RandomTao/main/BGPics/Unsplash/' + r2 + '.jpg';
 var name2 = "url(" + String(name1) + ")";
 
 document.getElementById("BG").style.backgroundImage = name2;
@@ -45,7 +45,7 @@ function genRandomNum(){
       randomChapCh.innerText = data;
     }) */
     
-    fetch('/Chapters/TaoTeChing_All_Ch1.txt').then(response=>response.text()).then(data=>{
+    fetch('https://raw.githubusercontent.com/Danizoo/RandomTao/main/Chapters/TaoTeChing_All_Ch1.txt').then(response=>response.text()).then(data=>{
       
       var txtSplitStart = 0;
       var txtSplitEnd = 0;
@@ -74,7 +74,7 @@ function genRandomNum(){
 
     })
 
-    fetch('/Chapters/TaoTeChing_All_En1_StephanMitchell.txt').then(response=>response.text()).then(data=>{
+    fetch('https://raw.githubusercontent.com/Danizoo/RandomTao/main/Chapters/TaoTeChing_All_En1_StephanMitchell.txt').then(response=>response.text()).then(data=>{
 
       var txtSplitStart = 0;
       var txtSplitEnd = 0;
